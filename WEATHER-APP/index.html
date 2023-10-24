@@ -10,57 +10,69 @@
         crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file (styles.css) for better organization -->
     <style>
-        body {
-            background-color: #f5f5f5;
-        }
+    body {
+        background-color: #f5f5f5;
+        font-family: 'Arial', sans-serif; /* Added a generic font family */
+        margin: 0;
+        padding: 0;
+    }
 
-        .container {
-            margin-top: 20px;
-        }
+    .container {
+        margin: 20px;
+        padding: 10px; /* Added padding for better spacing */
+    }
 
-        .my-heading {
-            font-size: 28px;
-            color: #333;
-        }
+    .my-heading {
+        font-size: 28px;
+        color: #333;
+        font-weight: bold; /* Added font weight for emphasis */
+    }
 
-        .card-header-warning {
-            background-color: #f0ad4e;
-            border-color: #eea236;
-            color: #fff;
-        }
+    .card-header-warning {
+        background-color: #f0ad4e;
+        border-color: #eea236;
+        color: #fff;
+    }
 
-        .card-header-success {
-            background-color: #5cb85c;
-            border-color: #4cae4c;
-            color: #fff;
-        }
+    .card-header-success {
+        background-color: #5cb85c;
+        border-color: #4cae4c;
+        color: #fff;
+    }
 
-        .card-header-primary {
-            background-color: #337ab7;
-            border-color: #2e6da4;
-            color: #fff;
-        }
+    .card-header-primary {
+        background-color: #337ab7;
+        border-color: #2e6da4;
+        color: #fff;
+    }
 
-        .card-title-temperature {
-            font-size: 36px;
-        }
+    .card-title-temperature {
+        font-size: 36px;
+        font-weight: bold; /* Added font weight for emphasis */
+        margin: 10px 0; /* Adjusted margin for spacing */
+    }
 
-        .list-item {
-            font-size: 16px;
-        }
+    .list-item {
+        font-size: 16px;
+        margin: 5px 0; /* Adjusted margin for spacing */
+    }
 
-        .table-responsive {
-            margin-top: 20px;
-        }
+    .table-responsive {
+        margin-top: 20px;
+        overflow-x: auto; /* Added horizontal scroll for small screens */
+    }
 
-        table {
-            width: 100%;
-        }
+    table {
+        width: 100%;
+        border-collapse: collapse; /* Improved table layout */
+    }
 
-        th, td {
-            text-align: center;
-        }
-    </style>
+    th, td {
+        text-align: center;
+        padding: 10px; /* Added padding for better cell spacing */
+    }
+</style>
+
 </head>
 <body>
     <div class="container">
